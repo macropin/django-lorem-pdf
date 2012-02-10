@@ -1,6 +1,6 @@
 # Loremized PDF generator (Django)
 
-If you're looking for a simple example of PDF Generation in Pthon / Django then you might find this interesting.
+If you're looking for a simple example of PDF Generation in Python / Django then you might find this interesting.
 
 If you have to ask why, then this project is not for you :) 
 
