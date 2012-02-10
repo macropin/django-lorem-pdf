@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% load webdesign %}
+
+{% block css %}
+<style type="text/css">
+    body { text-align: center;}
+    p {text-align: left;}
+</style>
+{% endblock %}
+
+{% block body_content %}
+    <h1>{% block body_title %}Test Document{% endblock %}</h1>
+    <h2>Document ID: {{ code }}</h2>
+
+    {% lorem 10 p random %}
+
+{% endblock %}
