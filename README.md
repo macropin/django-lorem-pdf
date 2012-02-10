@@ -28,7 +28,6 @@ You'll also need _adlibre-django_ for the PDF rendering code, and any other requ
 
 <pre>
     pip install -e git+git://github.com/adlibre/django-adlibre.git#egg=django-adlibre
-    pip install xhtml2pdf
 </pre>
 
 -- Andrew Cutler
