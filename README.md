@@ -11,7 +11,7 @@ If you have to ask why, then this project is not for you :)
 
 ## Installation
 
-To make use of this awesomely random project first the setup your Django project then add the following to your Django project _urls.py_:
+To make use of this awesomely random project, first setup your Django project then add the following to your project urlpatterns (_urls.py_):
 
 <pre>
     url(r'', include('docmk.urls')),
