@@ -24,10 +24,10 @@ And then add the following to your _INSTALLED_APPS_ in _settings.py_"
     'docmk',
 </pre>
 
-You'll also need _adlibre-django_ for the PDF rendering code, and any other requirements:
+You'll also need _adlibre-django_ for the PDF rendering code. If you use pip to install this then the dependency and any other requirements will be taken care of:
 
 <pre>
-    pip install -e git+git://github.com/adlibre/django-adlibre.git#egg=django-adlibre
+    pip install -e git+git://github.com/macropin/docmk.git#egg=docmk
 </pre>
 
 -- Andrew Cutler
