@@ -4,10 +4,8 @@ from django.template import RequestContext
 
 from adlibre.pdf.generate_pdf import generate_pdf
 
-def html(request, code, template='docmk.html'):
-
+def html(request, code, template='lorem_pdf.html'):
     context = { 'code': code, }
-
     return render_to_response(template, context, context_instance=RequestContext(request))
 
 

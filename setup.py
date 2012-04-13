@@ -3,13 +3,13 @@
 #from distutils.core import setup
 from setuptools import setup
 
-setup(name='docmk',
-    version='0.1.0',
+setup(name='lorem_pdf',
+    version='0.1.1',
     long_description=open('README.md').read(),
-    url='https://github.com/macropin/docmk',
-    packages=['docmk',],
+    url='https://github.com/macropin/django-lorem-pdf',
+    packages=['lorem_pdf',],
     install_requires=['django','django-adlibre',],
-    package_data={ 'docmk': ['templates/*',] },
+    package_data={ 'lorem_pdf': ['templates/*',] },
     dependency_links = [
         "https://github.com/adlibre/django-adlibre/tarball/master#egg=django-adlibre"
     ],
